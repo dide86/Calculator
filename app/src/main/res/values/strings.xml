@@ -11,4 +11,9 @@
     <string name="button9">9</string>
     <string name="button0">0</string>
     <string name="buttondot">.</string>
+    <string name="buttonplus">+</string>
+    <string name="buttonminus">-</string>
+    <string name="buttondel">/</string>
+    <string name="buttonumn">*</string>
+    <string name="buttonresult">=</string>
 </resources>
