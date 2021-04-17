@@ -5,22 +5,44 @@
     android:background="@drawable/cal"
     android:columnCount="4">
 
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/Coral"
+        android:inputType="numberDecimal"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="130dp"
+        android:layout_marginLeft="-45dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_marginTop="10dp"
+        android:background="@color/Coral"
+        android:inputType="numberDecimal"
+        android:textSize="45sp" />
 
     <TextView
         android:id="@+id/textResult"
-        android:layout_width="250dp"
+        android:layout_width="267dp"
         android:layout_height="wrap_content"
         android:layout_columnSpan="3"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="5dp"
-        android:background="@color/Coral"
+        android:background="@color/LightSalmon"
         android:text="@+id/textResult"
         android:textColor="@color/black"
-        android:textSize="45sp" />
+        android:textSize="40sp" />
 
     <Button
-        android:id="@+id/btnumn"
+        android:id="@+id/btnUmn"
+        android:layout_marginBottom="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/purple_200"
@@ -30,12 +52,15 @@
         android:id="@+id/btn7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="5dp"
         android:text="@string/button7" />
 
     <Button
         android:id="@+id/btn8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
         android:text="@string/button8" />
 
     <Button
@@ -45,15 +70,18 @@
         android:text="@string/button9" />
 
     <Button
-        android:id="@+id/btndel"
+        android:id="@+id/btnDel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:background="@color/purple_200"
         android:text="@string/buttondel" />
 
 
     <Button
         android:id="@+id/btn4"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button4" />
@@ -71,8 +99,9 @@
         android:text="@string/button6" />
 
     <Button
-        android:id="@+id/btnplus"
+        android:id="@+id/btnPlus"
         android:layout_width="wrap_content"
+        android:layout_marginBottom="5dp"
         android:layout_height="wrap_content"
         android:background="@color/purple_200"
         android:text="@string/buttonplus" />
@@ -82,6 +111,8 @@
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="5dp"
         android:text="@string/button1" />
 
     <Button
@@ -97,9 +128,10 @@
         android:text="@string/button3" />
 
     <Button
-        android:id="@+id/btnminus"
+        android:id="@+id/btnMinus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:background="@color/purple_200"
         android:text="@string/buttonminus" />
 
@@ -109,17 +141,19 @@
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="5dp"
         android:text="@string/button0" />
 
     <Button
-        android:id="@+id/btndot"
+        android:id="@+id/btnDot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/buttondot" />
 
 
     <Button
-        android:id="@+id/btnresult"
+        android:id="@+id/btnResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_column="3"
