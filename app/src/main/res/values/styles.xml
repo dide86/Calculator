@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="numberButtonStyle">
+        <item name="android:layout_weight">@dimen/btnWe</item>
+        <item name="android:layout_width">@dimen/btnHi</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">onNumberClick</item>
+        <item name="android:backgroundTint">@color/Peru</item>
+    </style>
+
+    <style name="operationButtonStyle">
+        <item name="android:layout_weight">@dimen/btnWe</item>
+        <item name="android:layout_width">@dimen/btnHi</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@color/DarkCyan</item>
+        <item name="android:onClick">onOperationClick</item>
+        <item name="android:backgroundTint">@color/Chocolate</item>
+    </style>
+
+    <style name="linearStyle">
+        <item name="android:layout_weight">@dimen/btnWe</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tvMarginBetButton</item>
+    </style>
+</resources>

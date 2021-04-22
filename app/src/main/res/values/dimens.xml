@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tvMargin">-45dp</dimen>
+    <dimen name="tvMargin2">5dp</dimen>
+    <dimen name="btnHi">0dp</dimen>
+    <dimen name="btnWe">1</dimen>
+    <dimen name="tvMarginBetButton">16dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="textSize2">42sp</dimen>
+
+</resources>
