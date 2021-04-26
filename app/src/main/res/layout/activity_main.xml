@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cal"
     android:padding="15dp">
+
     <!-- поле результата -->
+    <Button
+        android:id="@+id/btnSet"
+        style="@style/numberButtonTheme"
+        android:text="@string/buttonSet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
     <TextView
         android:id="@+id/resultField"
         android:layout_width="0dp"
@@ -48,18 +60,22 @@
         app:layout_constraintTop_toBottomOf="@+id/numberField">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn7"
             style="@style/numberButtonStyle"
             android:text="@string/button7" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn8"
             style="@style/numberButtonStyle"
             android:text="@string/button8" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn9"
             style="@style/numberButtonStyle"
             android:text="@string/button9" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDel"
             style="@style/operationButtonStyle"
             android:text="@string/buttonDel" />
     </LinearLayout>
@@ -72,18 +88,22 @@
         app:layout_constraintTop_toBottomOf="@+id/firstButtonPanel">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn4"
             style="@style/numberButtonStyle"
             android:text="@string/button4" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn5"
             style="@style/numberButtonStyle"
             android:text="@string/button5" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn6"
             style="@style/numberButtonStyle"
             android:text="@string/button6" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnUmn"
             style="@style/operationButtonStyle"
             android:text="@string/buttonUmn" />
     </LinearLayout>
@@ -96,18 +116,22 @@
         app:layout_constraintTop_toBottomOf="@+id/secondButtonPanel">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1"
             style="@style/numberButtonStyle"
             android:text="@string/button1" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2"
             style="@style/numberButtonStyle"
             android:text="@string/button2" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn3"
             style="@style/numberButtonStyle"
             android:text="@string/button3" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMinus"
             style="@style/operationButtonStyle"
             android:text="@string/buttonMinus" />
     </LinearLayout>
@@ -120,20 +144,25 @@
         app:layout_constraintTop_toBottomOf="@+id/thirdButtonPanel">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn0"
             style="@style/numberButtonStyle"
             android:text="@string/button0" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDot"
             style="@style/numberButtonStyle"
             android:text="@string/buttonDot" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPlus"
             style="@style/operationButtonStyle"
             android:text="@string/buttonPlus" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnResult"
             style="@style/operationButtonStyle"
             android:text="@string/buttonResult" />
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

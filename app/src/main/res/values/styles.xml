@@ -24,4 +24,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/tvMarginBetButton</item>
     </style>
+    <style name="numberButtonTheme">
+        <item name="android:layout_weight">@dimen/btnWe</item>
+        <item name="android:layout_width">@dimen/btnHi</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:backgroundTint">@color/DarkCyan</item>
+    </style>
 </resources>
